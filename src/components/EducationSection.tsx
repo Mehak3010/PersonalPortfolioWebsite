@@ -30,6 +30,13 @@ const EducationSection = () => {
 
   const certifications = [
     {
+      name: "ICMSCI-2026 Certificate of Appreciation",
+      issuer: "P.G.D.A.V. College, University of Delhi (ICMSCI-2026)",
+      year: "2026",
+      file: "/images/PresentationCertificate.jpg",
+      type: "image",
+    },
+    {
       name: "5-Day AI Agents Intensive Course with Google",
       issuer: "Kaggle, Google",
       year: "2025",
@@ -182,8 +189,20 @@ const EducationSection = () => {
                                 alt={cert.name}
                                 loading="lazy"
                                 onError={(e) => {
-                                  const target = e.currentTarget as HTMLImageElement
-                                  target.src = "/placeholder.svg"
+                                  const img = e.currentTarget as HTMLImageElement
+                                  const current = img.getAttribute('data-try-idx')
+                                  const startIndex = current ? parseInt(current, 10) : 0
+                                  const exts = ['png', 'jpg', 'jpeg', 'webp']
+                                  const base = img.src.replace(/\.(jpg|jpeg|png|webp)(\?.*)?$/i, '')
+                                  for (let i = startIndex; i < exts.length; i++) {
+                                    const candidate = `${base}.${exts[i]}`
+                                    if (candidate !== img.src) {
+                                      img.setAttribute('data-try-idx', String(i + 1))
+                                      img.src = candidate
+                                      return
+                                    }
+                                  }
+                                  img.src = "/placeholder.svg"
                                 }}
                                 className="w-full h-auto rounded-md border"
                               />
