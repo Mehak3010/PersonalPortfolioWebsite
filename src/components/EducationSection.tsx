@@ -37,6 +37,13 @@ const EducationSection = () => {
       type: "image",
     },
     {
+      name: "Supervisd Learning Certification",
+      issuer: "Coursera, Stanford Online",
+      year: "2026",
+      file: "/images/SupervisedLearning Certification.jpg",
+      type: "image",
+    },
+    {
       name: "5-Day AI Agents Intensive Course with Google",
       issuer: "Kaggle, Google",
       year: "2025",
