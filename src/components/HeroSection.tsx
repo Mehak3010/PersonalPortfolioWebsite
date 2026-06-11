@@ -8,6 +8,7 @@ const HeroSection = () => {
     { text: "💻 Full Stack Web Developer", hasImage: false },
     { text: "🤖 AI/ML Enthusiast", hasImage: false }, 
     { text: "Python Developer", hasImage: true, image: pythonLogo },
+    { text: "🚀 Open Source Cintributer", hasImage: false },
     { text: "🎨 UI/UX Designer", hasImage: false }
   ];
 
