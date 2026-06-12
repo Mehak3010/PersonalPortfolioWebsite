@@ -20,11 +20,11 @@ const AboutSection = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                BCA student and aspiring AI/ML engineer with a keen interest in developing intelligent systems and data-driven solutions. I enjoy transforming complex problems into practical applications using machine learning and modern web technologies.
+                I'm a BCA student passionate about building technology that makes information more accessible and useful. My interests lie at the intersection of AI, machine learning, and full-stack development, where I enjoy transforming ideas into practical applications.
               </p>
 
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Actively working with Python, AI/ML frameworks, and full-stack development to build projects focused on automation, analytics, and impactful digital experiences.
+                Over the years, I've worked on projects involving intelligent document systems, conversational AI, analytics, and real-time applications. I believe the best products are those that combine strong technical foundations with thoughtful user experiences, and that's the mindset I bring to every project I build.
               </p>
 
               <div className="grid grid-cols-2 gap-4 mt-8">
@@ -33,8 +33,12 @@ const AboutSection = () => {
                   <p className="text-muted-foreground">Projects Built</p>
                 </Card>
                 <Card className="p-4 text-center shadow-neon hover:shadow-glow transition-smooth border-accent/20">
-                  <h3 className="text-2xl font-bold bg-gradient-neon bg-clip-text text-transparent">5+</h3>
-                  <p className="text-muted-foreground">Years Learning</p>
+                  <h3 className="text-2xl font-bold bg-gradient-neon bg-clip-text text-transparent">
+                    AI & Web
+                  </h3>
+                  <p className="text-muted-foreground">
+                    Building Solutions
+                  </p>
                 </Card>
               </div>
             </div>
