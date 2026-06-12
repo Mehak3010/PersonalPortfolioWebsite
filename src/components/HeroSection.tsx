@@ -45,7 +45,7 @@ const HeroSection = () => {
           </div>
           
           <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: '0.4s' }}>
-            Passionate about creating beautiful, functional web applications that solve real-world problems and deliver exceptional user experiences.
+            Exploring the intersection of AI and full-stack development by building practical applications that transform complex ideas into intuitive digital experiences.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in" style={{ animationDelay: '0.6s' }}>
