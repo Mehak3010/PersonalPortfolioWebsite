@@ -7,11 +7,20 @@ import synqImage from '@/assets/synq-chat-interface.png';
 import inkwellImage from '@/assets/InkWell.png';
 import blacklightImage from '@/assets/black-lightImage.png';
 import redditImage from '@/assets/reddit.png';
+import AskMyPDFImage from '@/assets/AskMyPDF.jpg';
 
 const ProjectsSection = () => {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
   const projects = [
+    {
+      title: "AskMyPDF",
+      description: "AI-powered multi-document assistant enabling conversational PDF interaction, cross-document reasoning, quiz generation, and exportable study kits using RAG and LLMs.",
+      technologies: ["React", "TypeScript", "FastAPI", "Python", "LangChain", "RAG", "LLMs"],
+      image: AskMyPDFImage,
+      github: "https://github.com/Mehak3010/AskMyPDF",
+      live: "#"
+    },
     {
       title: "Reddit Bot Detective",
       description: "Interactive dashboard for comparative analysis of unsupervised learning models detecting potential bot accounts on Reddit.",
