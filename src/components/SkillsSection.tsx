@@ -16,12 +16,12 @@ const SkillsSection = () => {
     },
     {
       title: "AI & Data Technologies",
-      icon: <Cloud className="w-6 h-6" />,
-      skills: ["LangChain", "RAG" "Groq API", "ChromaDB", "Machine Learning", "Prompt Engineering"]
+      icon: <Brain className="w-6 h-6" />,
+      skills: ["LangChain", "RAG", "Groq API", "ChromaDB", "Machine Learning", "Prompt Engineering"]
     },
     {
       title: "Tools & Platforms",
-      icon: <Brain className="w-6 h-6" />,
+      icon: <Database className="w-6 h-6" />,
       skills: ["Git", "GitHub", "Postman", "VS Code", "Jupyter", "MongoDB"]
     }
   ];
@@ -66,7 +66,7 @@ const SkillsSection = () => {
               <CardContent className="p-6">
                 <h4 className="font-semibold text-lg mb-2">Always Learning</h4>
                 <p className="opacity-90">
-                  Passionate about exploring new technologies and frameworks to stay current with industry trends.
+                  Continuously learning through hands-on projects that challenge me to grow as a developer and problem solver.
                 </p>
               </CardContent>
             </Card>
