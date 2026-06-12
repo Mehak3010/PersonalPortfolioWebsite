@@ -7,7 +7,7 @@ import synqImage from '@/assets/synq-chat-interface.png';
 import inkwellImage from '@/assets/InkWell.png';
 import blacklightImage from '@/assets/black-lightImage.png';
 import redditImage from '@/assets/reddit.png';
-import AskMyPDFImage from '@/assets/AskMyPDF.jpg';
+import AskMyPDFImage from '@/assets/AskMyPDF.png';
 
 const ProjectsSection = () => {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
