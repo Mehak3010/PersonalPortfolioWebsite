@@ -7,22 +7,22 @@ const SkillsSection = () => {
     {
       title: "Programming Languages",
       icon: <Code className="w-6 h-6" />,
-      skills: ["Python", "Java", "C", "C++", "JavaScript", "HTML", "CSS"]
+      skills: ["Python", "Java", "C", "C++", "JavaScript"]
     },
     {
       title: "Web Development",
       icon: <Palette className="w-6 h-6" />,
-      skills: ["React", "Node.js", "HTML", "CSS", "JavaScript"]
+      skills: ["React", "TypeScript", "Node.js", "Express.js", "Tailwind CSS", "FastAPI"]
     },
     {
-      title: "Cloud Platforms",
+      title: "AI & Data Technologies",
       icon: <Cloud className="w-6 h-6" />,
-      skills: ["Google Cloud Platform", "Microsoft Azure"]
+      skills: ["LangChain", "RAG" "Groq API", "ChromaDB", "Machine Learning", "Prompt Engineering"]
     },
     {
-      title: "AI & Machine Learning",
+      title: "Tools & Platforms",
       icon: <Brain className="w-6 h-6" />,
-      skills: ["Artificial Intelligence", "Machine Learning", "Python"]
+      skills: ["Git", "GitHub", "Postman", "VS Code", "Jupyter", "MongoDB"]
     }
   ];
 
