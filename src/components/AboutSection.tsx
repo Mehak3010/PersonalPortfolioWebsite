@@ -33,7 +33,7 @@ const AboutSection = () => {
                   <p className="text-muted-foreground">Projects Built</p>
                 </Card>
                 <Card className="p-4 text-center shadow-neon hover:shadow-glow transition-smooth border-accent/20">
-                  <h3 className="text-2xl font-bold bg-gradient-neon bg-clip-text text-transparent">4+</h3>
+                  <h3 className="text-2xl font-bold bg-gradient-neon bg-clip-text text-transparent">5+</h3>
                   <p className="text-muted-foreground">Years Learning</p>
                 </Card>
               </div>
