@@ -70,14 +70,6 @@ const ProjectsSection = () => {
       live: "#"
     },
     {
-      title: "Tic-Tac-Toe",
-      description: "Classic Tic Tac Toe game built with Python and Pygame for interactive gameplay.",
-      technologies: ["Python", "Pygame"],
-      image: "/images/a4ec0c18-f558-4915-ab4c-f278c96a962f.png",
-      github: "https://github.com/Mehak3010/Tic-Tac-Toe-Project",
-      live: "#"
-    },
-    {
       title: "Zenith Real Estate Price Predictor",
       description: "ML model analyzing Boston Housing dataset to predict housing prices using machine learning algorithms.",
       technologies: ["Python", "Machine Learning", "Jupyter Notebook"],
