@@ -15,8 +15,8 @@ const ProjectsSection = () => {
   const projects = [
     {
       title: "AskMyPDF",
-      description: "AI-powered multi-document assistant enabling conversational PDF interaction, cross-document reasoning, quiz generation, and exportable study kits using RAG and LLMs.",
-      technologies: ["React", "TypeScript", "FastAPI", "Python", "LangChain", "RAG", "LLMs"],
+      description: "AI-powered multi-document assistant supporting PDF chat, cross-document reasoning, AI-generated quizzes, and exportable study kits.",
+      technologies: ["React", "TypeScript", "FastAPI", "Groq", "LangChain", "RAG", "ChromeDB"],
       image: AskMyPDFImage,
       github: "https://github.com/Mehak3010/AskMyPDF",
       live: "#"
@@ -62,14 +62,6 @@ const ProjectsSection = () => {
       live: "#"
     },
     {
-      title: "MyTaskList",
-      description: "A clean and intuitive task management application with add, complete, and delete functionality for organizing your daily activities.",
-      technologies: ["HTML", "CSS", "JavaScript"],
-      image: "/images/4a9b74bd-b530-4d4c-a1b0-4a9347f31f91.png",
-      github: "https://github.com/Mehak3010/MyTaskList",
-      live: "#"
-    },
-    {
       title: "Zenith Real Estate Price Predictor",
       description: "ML model analyzing Boston Housing dataset to predict housing prices using machine learning algorithms.",
       technologies: ["Python", "Machine Learning", "Jupyter Notebook"],
@@ -97,7 +89,7 @@ const ProjectsSection = () => {
             Featured <span className="bg-gradient-neon bg-clip-text text-transparent">Projects</span>
           </h2>
           <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Here are some of my recent projects that showcase my skills and passion for creating innovative solutions.
+            A collection of projects spanning AI applications, full-stack development, and interactive user experiences.
           </p>
 
           <div className="relative">
@@ -160,7 +152,7 @@ const ProjectsSection = () => {
                         onClick={() => window.open(project.github, '_blank')}
                       >
                         <Github className="w-4 h-4 mr-2" />
-                        Code
+                        GitHub
                       </Button>
                       {project.live !== "#" && (
                         <Button
