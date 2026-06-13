@@ -115,7 +115,7 @@ const EducationSection = () => {
       type: "image",
     },
     {
-      name: "Awesome Day Online Conference",
+      name: "Awsome Day Online Conference",
       issuer: "Amazon Web Services",
       year: "2024",
       file: "/images/AwesomeDay.png",
